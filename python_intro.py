@@ -9,5 +9,5 @@
 
 def hi():
 	print('welcome to tha crazy dei')
-
+	print('welcome to tha crazy dei')
 hi()

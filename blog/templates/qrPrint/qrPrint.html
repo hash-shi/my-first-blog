@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>QRコードラベル印刷</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<div>
+			<input type="button" value="ラベル印刷" id="btnPrint" onclick="qrPrint()">
+			<pre></pre>
+
+			<div class="tv">
+				<div class="title">
+					年月日
+				</div>
+				<div class="value">
+					<input type="date" neme="datYmd" value="2023-02-20" max="2999-03-31" onchange="changeYmd()">
+					連番:{{ 000001 }}
+				</div>
+			</div>
+			<br />
+
+			
+
+		</div>
+	</body>
+</html>
